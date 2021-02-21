@@ -11,7 +11,6 @@ i18n
     },
     debug: true,
     lng: "sk",
-    fallbackLng: "en",
   });
 
 export default i18n;

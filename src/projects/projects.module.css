@@ -1,0 +1,86 @@
+.projects h1 {
+  color: var(--mainBlack);
+}
+
+.projectsContainer {
+  width: 80vw;
+  margin: auto;
+}
+
+@media screen and (min-width: 735px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+  }
+}
+
+@media screen and (min-width: 1135px) {
+  .projectsContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.project {
+  color: var(--secondaryColor);
+  border: 3px solid blue;
+  border-radius: 1rem;
+  padding: 0.2rem;
+  box-shadow: 5px 9px 6px 0px rgba(0, 0, 0, 0.7);
+  margin-bottom: 3rem;
+}
+
+.projectImage {
+  position: relative;
+}
+
+.projectImage img {
+  width: 100%;
+  height: 280px;
+  border-radius: 0.5rem 0.5rem 0 0;
+  margin-bottom: 2px;
+}
+
+.labelBachelor {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top-right-radius: 0.5rem;
+}
+
+.tools {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 0.8rem;
+  min-width: 5rem;
+  min-height: 4rem;
+  background: var(--secondaryColor);
+  color: var(--primaryColor);
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, 50%);
+}
+
+.tools ul {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.tools li {
+  list-style: none;
+}
+
+.projectInfo {
+  background: var(--primaryColor);
+  padding: 4rem 2rem 2rem 2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+
+.projectInfo h5 {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  min-height: 70px;
+}

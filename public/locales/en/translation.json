@@ -21,5 +21,12 @@
     "interest1": "Computer",
     "interest2": "Sport",
     "interest3": "Travelling",
-    "interest4": "Society"
+    "interest4": "Society",
+    "myWorkingProjects": "Projects I was working on",
+    "getMore": "Get More",
+    "thesis": "My bachelor's thesis",
+    "project1": "Platform for interactive online interviews",
+    "project2": "Conference Management System",
+    "project3": "Race Evaluation System",
+    "project4": "Employee bank application"
 }
