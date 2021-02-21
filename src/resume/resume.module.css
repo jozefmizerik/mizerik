@@ -1,0 +1,140 @@
+.cvWrapper {
+  background: var(--mainGrey);
+  margin: 1rem auto;
+}
+
+.cvHeader {
+  background: var(--mainBlack);
+  padding: 1.3rem;
+}
+
+.cvHeader h3 {
+  color: var(--mainWhite);
+  font-size: 2.5rem;
+}
+
+.cvTitle {
+  background: var(--darkGrey);
+  text-align: left;
+}
+
+.cvData {
+  display: grid;
+  grid-template-columns: 1fr 8fr 11fr;
+  padding: 8px;
+  text-align: left;
+  grid-gap: 0.5rem;
+}
+
+.square {
+  width: 15px;
+  height: 15px;
+  background: black;
+  margin-left: 1rem;
+  margin-top: 0.2rem;
+}
+
+.cvDataInfo {
+  color: var(--mainBlack);
+}
+
+.cvDataInfo i {
+  display: flex;
+}
+
+.iconsInterest {
+  display: flex;
+}
+
+.skillsInfo {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0 5%;
+}
+
+.skillsInfo .cvDataInfo {
+  display: grid;
+  align-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  .skillsInfo .cvDataInfo {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .skillsInfo .cvDataInfo {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (min-width: 1105px) {
+  .skillsInfo .cvDataInfo {
+    grid-template-columns: 2fr 5fr;
+  }
+}
+
+.skillBar {
+  position: relative;
+  width: 100%;
+  height: 1rem;
+  border-radius: 40px;
+  background: var(--mainBlack);
+  z-index: 1;
+  margin-bottom: 0.8rem;
+}
+
+.skillBar:before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 92%;
+  height: 50%;
+  background: linear-gradient(to left, #01c201, rgb(228, 206, 15));
+}
+
+.skillBar:after {
+  position: absolute;
+  content: "";
+  top: 4px;
+  right: 4px;
+  height: 50%;
+  background: var(--mainBlack);
+}
+
+.skillsInfo .cvDataInfo:nth-child(1) .skillBar:after {
+  width: 10%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(3) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(5) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(7) .skillBar:after {
+  width: 20%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(9) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(11) .skillBar:after {
+  width: 30%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(2) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(4) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(6) .skillBar:after {
+  width: 40%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(8) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(10) .skillBar:after {
+  width: 50%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(12) .skillBar:after {
+  width: 70%;
+}
+
+@media screen and (min-width: 635px) {
+  .cvWrapper {
+    width: 70%;
+  }
+}
