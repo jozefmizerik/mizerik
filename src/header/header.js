@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import classes from "./header.module.css";
 import skFlag from "../assets/img/flagSK.jpg";
 import enFlag from "../assets/img/flagGB.jpg";
@@ -15,17 +16,17 @@ const Header = () => {
   const updateWidth = () => {
     setWindowWidth(window.innerWidth);
   };
-  // console.log(windowWidth);
+  const { t, i18n } = useTranslation();
   return (
     <header>
       <div className={classes.headerContainer}>
         <div className={classes.language}>
-          <a href="./index.html">
+          <button onClick={() => i18n.changeLanguage("sk")}>
             <img src={skFlag} alt="Slovak" title="Slovenský jazyk" />
-          </a>
-          <a href="./indexAj.html">
+          </button>
+          <button onClick={() => i18n.changeLanguage("en")}>
             <img src={enFlag} alt="English" title="English language" />
-          </a>
+          </button>
         </div>
         <div className={classes.media}>
           <a href="https://sk-sk.facebook.com/jozef.mizerik" target="_blank">
@@ -45,9 +46,9 @@ const Header = () => {
         </div>
         {(navOpen || windowWidth >= 695) && (
           <nav className={classes.navigation}>
-            <a href="#cv">Životopis</a>
-            <a href="#projects">Projekty</a>
-            <a href="#about">O mne</a>
+            <a href="#cv">{t("cv")}</a>
+            <a href="#projects">{t("projects")}</a>
+            <a href="#about">{t("about")}</a>
           </nav>
         )}
       </div>

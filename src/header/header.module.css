@@ -20,15 +20,15 @@ header {
   text-align: center;
 }
 
-.language a {
-  opacity: 0.85;
+.language button {
+  opacity: 0.75;
 }
 
-.language a:hover {
+.language button:hover {
   opacity: 1;
 }
 
-.language a,
+.language button,
 .media a {
   margin-right: 0.7rem;
 }

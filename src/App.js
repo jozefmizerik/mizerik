@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./header/header";
 import Main from "./main/main";
+import "./i18n";
 
 function App() {
   return (

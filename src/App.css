@@ -46,8 +46,11 @@ a {
 }
 
 button {
-  margin: 1rem;
   border: 2px solid var(--secondaryColor);
+}
+
+button:focus {
+  outline: none;
 }
 
 .button-more {
