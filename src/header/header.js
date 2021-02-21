@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classes from "./header.module.css";
+import skFlag from "../assets/img/flagSK.jpg";
+import enFlag from "../assets/img/flagGB.jpg";
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -19,18 +21,10 @@ const Header = () => {
       <div className={classes.headerContainer}>
         <div className={classes.language}>
           <a href="./index.html">
-            <img
-              src="../assets/img/flagSK.jpg"
-              alt="Slovak"
-              title="Slovenský jazyk"
-            />
+            <img src={skFlag} alt="Slovak" title="Slovenský jazyk" />
           </a>
           <a href="./indexAj.html">
-            <img
-              src="../assets/img/flagGB.jpg"
-              alt="English"
-              title="English language"
-            />
+            <img src={enFlag} alt="English" title="English language" />
           </a>
         </div>
         <div className={classes.media}>

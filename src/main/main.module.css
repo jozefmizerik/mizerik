@@ -1,0 +1,81 @@
+.indexContainer {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(rgba(26, 27, 27, 0.4), rgba(14, 15, 15, 0.4)),
+    center/cover no-repeat url("../assets/img/atPc.jpg");
+}
+
+.indexTitle {
+  animation: fromRight 5s ease-in-out 1;
+}
+
+.indexSubtitle {
+  color: var(--secondaryColor);
+  animation: fromLeft 5s ease-in-out 1;
+}
+
+.indexContainerInfo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.indexButton {
+  display: block;
+  width: 20rem;
+  color: var(--secondaryColor);
+  padding: 1rem 2rem;
+  background: transparent;
+  animation: show 6s linear 1;
+  transition: var(--mainTransition);
+  margin: 3rem auto;
+  border: 2px solid var(--secondaryColor);
+}
+
+.indexButton:hover {
+  background: var(--primaryColor);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fromLeft {
+  0% {
+    transform: translateX(1000px);
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  75% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    transform: translateX(-1000px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
