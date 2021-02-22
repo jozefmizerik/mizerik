@@ -4,6 +4,7 @@ import Main from "./main/main";
 import Resume from "./resume/resume";
 import Projects from "./projects/projects";
 import About from "./about/about";
+import Footer from "./footer/footer";
 import "./i18n";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Resume />
       <Projects />
       <About />
+      <Footer />
     </div>
   );
 }
