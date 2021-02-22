@@ -1,0 +1,73 @@
+.chosenProject {
+  background: var(--mainGrey);
+  position: relative;
+  min-height: 60vh;
+}
+
+.chosenProject h2 {
+  color: var(--mainBlack);
+}
+
+.chosenProject img {
+  width: 100%;
+}
+
+.chosenProjectHeader {
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.imageContainer {
+  overflow: hidden;
+  border: 0.5rem solid var(--primaryColor);
+  border-radius: 0.5rem;
+  background: var(--primaryColor);
+}
+
+.imageContainer:hover .chosenProjectImage {
+  opacity: 0.7;
+  transform: scale(1.2);
+}
+
+.chosenProjectImage {
+  display: block;
+  transition: var(--mainTransition);
+  max-height: 350px;
+}
+
+.projectLink {
+  width: 20%;
+  min-width: 12rem;
+  text-align: left;
+  margin: auto;
+}
+
+.projectLink a {
+  color: var(--mainBlack);
+}
+
+.projectLink a:hover {
+  text-decoration: none;
+}
+
+.projectLink a:hover > .projectLink {
+  background: var(--primaryColor);
+}
+
+@media screen and (min-width: 1135px) {
+  .chosenProjectArticle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 0 1rem;
+  }
+}
+
+.chosenProjectInfo {
+  padding: 3rem 3rem 2rem 0;
+}
+
+.chosenProjectInfo p {
+  margin: 1rem 0 1rem 0;
+}

@@ -3,7 +3,7 @@
 }
 
 .projectsContainer {
-  width: 80vw;
+  width: 85vw;
   margin: auto;
 }
 
@@ -75,7 +75,7 @@
 
 .projectInfo {
   background: var(--primaryColor);
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4rem 1.5rem 2rem 1.5rem;
   border-radius: 0 0 0.5rem 0.5rem;
 }
 
@@ -83,4 +83,9 @@
   font-weight: bold;
   letter-spacing: 0.1rem;
   min-height: 70px;
+}
+
+.carousel img {
+  width: 400px;
+  height: 300px;
 }

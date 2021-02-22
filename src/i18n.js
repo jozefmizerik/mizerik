@@ -7,7 +7,7 @@ i18n
   .use(initReactI18next)
   .init({
     react: {
-      useSuspense: false,
+      useSuspense: true,
     },
     debug: true,
     lng: "sk",

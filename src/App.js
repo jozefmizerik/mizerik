@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import "./App.css";
 import Header from "./header/header";
 import Main from "./main/main";
@@ -10,12 +11,14 @@ import "./i18n";
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Main />
-      <Resume />
-      <Projects />
-      <About />
-      <Footer />
+      <Suspense fallback={<div>Loading...</div>} maxDuration={5000}>
+        <Header />
+        <Main />
+        <Resume />
+        <Projects />
+        <About />
+        <Footer />
+      </Suspense>
     </div>
   );
 }
