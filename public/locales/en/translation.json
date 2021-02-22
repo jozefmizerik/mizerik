@@ -28,5 +28,13 @@
     "project1": "Platform for interactive online interviews",
     "project2": "Conference Management System",
     "project3": "Race Evaluation System",
-    "project4": "Employee bank application"
+    "project4": "Employee bank application",
+    "about1": "During my study at Grammar school I was interested in two specialisations - informatics and economics. I wasn't able to choose one of them, so I decided to study both. In my opinion, the university study gives you only general knowledge, specific things you must learn yourself anyway. And to get general knowledge of a certain specialisation are 3 years sufficient time.",
+    "about2": "One of advantages of university study, especially in IT field, is possiblity to meet various technologies and tools. There you find out which you like and which you like less. During my study Applied informatics at Faculty of Math, Physics and Informatics and Comenius University I was impressed mainly by web applications, especially their frontend part. This is field where I see my future. During summer 2019 I was working in Tatrabanka as software developer. We were developing new system Gate+, which is supposed to replace outdated Gate. It was very interesting experience, I was especially working on defect-fixing.",
+    "about3a": "Subsequently, I chose to create web application in JavaScript as my bachelor's thesis. I created application for conference management in real time. I tried full life-cycle of development - collecting requirements, their analysis, designing, it's implementation and finally testing. More about my bachelor's thesis is in",
+    "about3b": "section Projects",
+    "about3c": "I was required to create frontend of the app in Vanilla JavaScript. Meanwhile I started to learn React library. Now I can imagine better what it's benefits are compare to Vanilla JavaScript.",
+    "about4": "My last experience is from developing interactive interviews platform - Skreenbe. It was huge app with many difference funcionalities. Under the leadership of Senior programmer I gained a lot of experience, especially with React, but also with Redux, Node.js and MongoDb.",
+    "about5": "About my personality, I consider myself to be purposeful and hard-working. I like to learn new technologies and to improve my skills. Same time I'm social person. Some people don't believe when they find out I am programmer :). I like to go out on beer with friends, but I also exercise regularly. I love to travel, especially during summer.",
+    "about6": "Nowadays I'd like to find a job as a react developer or something similar. Some position where I'd improve my skills. I don't plan to study more, so I prefer full-time job."
 }

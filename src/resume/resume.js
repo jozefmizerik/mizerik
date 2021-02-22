@@ -12,7 +12,7 @@ const Resume = () => {
           <h2>{t("cv")}</h2>
         </div>
         <div className={`${classes.cvTitle} p-3`}>
-          <h4>SKÚSENOSTI</h4>
+          <h4>{t("experience")}</h4>
         </div>
         <figure className={classes.cvData}>
           <div className={classes.square}></div>

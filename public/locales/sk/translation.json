@@ -28,5 +28,13 @@
     "project1": "Platforma na interaktívne online pohovory",
     "project2": "Systém na manažovanie konferencie",
     "project3": "Systém na vyhodnocovanie pretekov",
-    "project4": "Aplikácia pre zamestnancov banky"
+    "project4": "Aplikácia pre zamestnancov banky",
+    "about1": "Už počas štúdia na gymnáziu ma bavili dva odbory - informatika aj ekonomika. Keďže som si nevedel medzi nimi vybrať, rozhodol som sa vyštudovať oba. Podľa môjho názoru vám výška dá len všeobecný základ, konkrétne veci sa aj tak musíte naučiť sami. A pre tento základ sú 3 roky dostatočná doba.",
+    "about2": "Výhodou vysokej školy, zvlášť v oblasti informatiky je však to, že sa stretnete s najrôznejšími technológiami a nástrojmi. Práve tu zistíte, ktoré vás bavia viac, ktoré menej. Mňa počas štúdia Aplikovanej informatiky na Fakulte matematiky, fyziky a informatiky Univerzity Komenského zaujaly najmä webové aplikácie, zvlášť ich frontendová časť. Je to oblasť v ktorej by som rád pokračoval ďalej. Počas leta 2019 som pracoval v Tatrabanke ako vývojár. Vyvíjali sme nový systém Gate+, ktorý má postupne nahradiť zastaralý Gate. Bola to zaujímava skúsenosť, pracoval som hlavne na fixovaní defektov.",
+    "about3a": "Následne som si vybral ako tému bakalárskej práce tvorbu aplikácie v JavaScripte. Išlo o naprogramovanie aplikácie na manažovanie konferencií v reálnom čase. Vyskúšal som si celý životný cyklus tvorby aplikácie - zozbieranie požiadaviek, ich analýzu, vytvorenie návrhu systému, jeho implementáciu, až po testovanie. Viac o mojej práci je v",
+    "about3b": "sekcií Projekty",
+    "about3c": "Frontend aplikácie bolo požadované naprogramovať vo Vanilla JavaScripte. Medzičasom som sa začal učiť aj knižnicu React, a teraz si aspoň viem lepšie predstaviť jej prínos oproti programovaniu vo Vanilla JavaScripte.",
+    "about4": "Moja posledná skúsenosť je z vývoja interaktívnej platformy na pohovory - Skreenbe. Skreenbe je rozsiahla aplikácia s veľkým množstvom funkcionality. Pod vedením seniornejšieho programátora som získal cenné skúsenosti, obzvlášť s Reactom, ale tiež s Reduxom, Node.js a MongoDb. Pracoval som na fixovaní bugov, vylepšovaní existujúcej funkcionality, ale aj vytváraní novej funkcionality.",
+    "about5": "Čo sa týka mojej osobnosti, myslím si, že som cieľavedomý a vytrvalý. Rád sa učím nové technológie a rozvíjam svoje schopnosti. Zároveň som však veľmi spoločenský človek. Veľa ľudí neverí, keď sa dozvie, že som programátor :). Rád zájdem s partiou na pivo, ale zároveň sa snažím pravidelne športovať. Hlavne počas leta rád cestujem.",
+    "about6": "Momentálne by som si rád našiel prácu ako react vývojár alebo niečo k tomu blízke. Nejakú pozíciu, kde by som sa mohol priučiť ďalšie nové veci. Neplánujem viac študovať na univerzite, takže preferujem prácu na plný uväzok."
 }

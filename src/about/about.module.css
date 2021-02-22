@@ -1,0 +1,12 @@
+.about {
+  margin: 2rem 0;
+}
+
+.about h3 {
+  color: var(--primaryColor);
+  font-style: italic;
+}
+
+.imgSignature {
+  text-align: right;
+}
