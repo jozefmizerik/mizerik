@@ -53,6 +53,20 @@ const Resume = () => {
             </p>
           </div>
         </figure>
+        <figure className={classes.cvData}>
+          <div className={classes.square}></div>
+          <div className={classes.cvDataBasic}>
+            <h6 className="font-weight-bold">{t("education2University")}</h6>
+            <h6>2014-2017</h6>
+          </div>
+          <div className={classes.cvDataInfo}>
+            <p>
+              {t("education2Faculty")}
+              <br />
+              {t("education2Specialisation")}
+            </p>
+          </div>
+        </figure>
         <div className={`${classes.cvTitle} p-3`}>
           <h4>{t("languageSkills")}</h4>
         </div>
