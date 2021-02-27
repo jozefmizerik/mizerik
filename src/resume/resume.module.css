@@ -104,32 +104,28 @@
 }
 
 .skillsInfo .cvDataInfo:nth-child(1) .skillBar:after {
-  width: 10%;
-}
-
-.skillsInfo .cvDataInfo:nth-child(3) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(5) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(7) .skillBar:after {
   width: 20%;
 }
 
-.skillsInfo .cvDataInfo:nth-child(9) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(11) .skillBar:after {
+.skillsInfo .cvDataInfo:nth-child(3) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(5) .skillBar:after {
   width: 30%;
 }
 
-.skillsInfo .cvDataInfo:nth-child(2) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(4) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(6) .skillBar:after {
+.skillsInfo .cvDataInfo:nth-child(7) .skillBar:after {
   width: 40%;
 }
 
-.skillsInfo .cvDataInfo:nth-child(8) .skillBar:after,
-.skillsInfo .cvDataInfo:nth-child(10) .skillBar:after {
+.skillsInfo .cvDataInfo:nth-child(2) .skillBar:after,
+.skillsInfo .cvDataInfo:nth-child(4) .skillBar:after {
   width: 50%;
 }
 
-.skillsInfo .cvDataInfo:nth-child(12) .skillBar:after {
+.skillsInfo .cvDataInfo:nth-child(6) .skillBar:after {
+  width: 60%;
+}
+
+.skillsInfo .cvDataInfo:nth-child(8) .skillBar:after {
   width: 70%;
 }
 

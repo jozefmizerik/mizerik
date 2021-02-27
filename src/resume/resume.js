@@ -105,7 +105,7 @@ const Resume = () => {
             <div className={classes.skillBar}></div>
           </div>
           <div className={classes.cvDataInfo}>
-            <h6>Java</h6>
+            <h6>SQL</h6>
             <div className={classes.skillBar}></div>
           </div>
           <div className={classes.cvDataInfo}>
@@ -117,27 +117,11 @@ const Resume = () => {
             <div className={classes.skillBar}></div>
           </div>
           <div className={classes.cvDataInfo}>
-            <h6>VsCode</h6>
-            <div className={classes.skillBar}></div>
-          </div>
-          <div className={classes.cvDataInfo}>
-            <h6>MongoDb</h6>
-            <div className={classes.skillBar}></div>
-          </div>
-          <div className={classes.cvDataInfo}>
             <h6>Git</h6>
             <div className={classes.skillBar}></div>
           </div>
           <div className={classes.cvDataInfo}>
-            <h6>Python</h6>
-            <div className={classes.skillBar}></div>
-          </div>
-          <div className={classes.cvDataInfo}>
-            <h6>SQL</h6>
-            <div className={classes.skillBar}></div>
-          </div>
-          <div className={classes.cvDataInfo}>
-            <h6>PHP</h6>
+            <h6>MongoDb</h6>
             <div className={classes.skillBar}></div>
           </div>
         </figure>
